@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>Images\TitreFinalIco.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\LauncherBackground.png" />
+    <None Remove="Images\TitreFinal.png" />
+    <None Remove="Images\TitreFinalIco.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\LauncherBackground.png" />
+    <Resource Include="Images\TitreFinal.png" />
+    <Resource Include="Images\TitreFinalIco.ico" />
+  </ItemGroup>
+
+</Project>

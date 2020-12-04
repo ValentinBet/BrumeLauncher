@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "xwHgXRVSPDQEFweAYZAtFHslqqSmRZbcWPQ/yC+SgdXgaEOsZ1V7dxxFEAp3wbMgI3qxAVb4IthDCb8rTXQAjA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Val\\source\\repos\\Brume_Launcher\\Brume_Launcher\\Brume_Launcher.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Val\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x86\\3.1.9\\microsoft.netcore.app.runtime.win-x86.3.1.9.nupkg.sha512",
+    "C:\\Users\\Val\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x86\\3.1.9\\microsoft.windowsdesktop.app.runtime.win-x86.3.1.9.nupkg.sha512",
+    "C:\\Users\\Val\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x86\\3.1.9\\microsoft.aspnetcore.app.runtime.win-x86.3.1.9.nupkg.sha512"
+  ],
+  "logs": []
+}
