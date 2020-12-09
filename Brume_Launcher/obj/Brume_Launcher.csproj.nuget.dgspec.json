@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Val\\source\\repos\\Brume_Launcher\\Brume_Launcher\\Brume_Launcher.csproj": {}
+    "C:\\Users\\v.betrancourt\\Documents\\BrumeLauncher\\Brume_Launcher\\Brume_Launcher.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Val\\source\\repos\\Brume_Launcher\\Brume_Launcher\\Brume_Launcher.csproj": {
+    "C:\\Users\\v.betrancourt\\Documents\\BrumeLauncher\\Brume_Launcher\\Brume_Launcher.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Val\\source\\repos\\Brume_Launcher\\Brume_Launcher\\Brume_Launcher.csproj",
+        "projectUniqueName": "C:\\Users\\v.betrancourt\\Documents\\BrumeLauncher\\Brume_Launcher\\Brume_Launcher.csproj",
         "projectName": "Brume_Launcher",
-        "projectPath": "C:\\Users\\Val\\source\\repos\\Brume_Launcher\\Brume_Launcher\\Brume_Launcher.csproj",
-        "packagesPath": "C:\\Users\\Val\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Val\\source\\repos\\Brume_Launcher\\Brume_Launcher\\obj\\",
+        "projectPath": "C:\\Users\\v.betrancourt\\Documents\\BrumeLauncher\\Brume_Launcher\\Brume_Launcher.csproj",
+        "packagesPath": "C:\\Users\\v.betrancourt\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\v.betrancourt\\Documents\\BrumeLauncher\\Brume_Launcher\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Val\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\v.betrancourt\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -55,7 +55,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

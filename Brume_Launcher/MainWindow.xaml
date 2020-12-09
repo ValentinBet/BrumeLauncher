@@ -11,14 +11,36 @@
         ResizeMode="NoResize"
          MouseDown="Window_MouseDown"
         Title="Launcher" Height="545" Width="898">
+
     <Grid>
+        
         <Image Stretch="UniformToFill" Source="images/LauncherBackground.png"/>
-        <Image Stretch="UniformToFill" Source="images/TitreFinal.png" Margin="181,56,181,179"/>
+        <Image Stretch="UniformToFill" Source="images/TitreFinal.png" Margin="181,57,181,178"/>
         <TextBlock Foreground="White" x:Name="VersionText" HorizontalAlignment="Left" Margin="10,482,0,0" 
-                   TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="25" Width="262" FontSize="16" FontFamily="Arial Black" FontStyle="Italic"/>
+                   TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="25" Width="262" FontFamily="Bahnschrift" FontStyle="Italic"/>
         <Button Foreground="White" Name="PlayButton" HorizontalAlignment="Left" Margin="678,445,0,0" VerticalAlignment="Top" Width="206" Height="64" Click="PlayButton_Click" RenderTransformOrigin="0.538,-0.599" BorderBrush="#00C3141D" Background="#00000000">
+            <Button.Style>
+                <Style TargetType="{x:Type Button}">
+                    <Setter Property="Background" Value="LightBlue" />
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="{x:Type Button}">
+                                <Border x:Name="Border" Background="{TemplateBinding Background}">
+                                    <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                                </Border>
+                                <ControlTemplate.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter Property="Background" Value="#FFC3141D" TargetName="Border" />
+                                    </Trigger>
+                                </ControlTemplate.Triggers>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+            </Button.Style>
         </Button>
-        <TextBlock Foreground="White" Name="PlayText" Text="PLAY" TextWrapping="Wrap" FontSize="48" TextAlignment="Center" Margin="678,445,14,36"/>
+        <TextBlock Foreground="White" Name="PlayText" Text="PLAY" TextWrapping="Wrap" FontSize="48" TextAlignment="Center" Margin="678,445,14,36" FontFamily="./#COCOGOOSE LETTERPRESS" FontWeight="Bold" FontStyle="Normal" IsHitTestVisible="false">
+        </TextBlock>
         <TextBlock Foreground="White" Name="StatusText" Text="" TextWrapping="Wrap" TextAlignment="Center" Margin="678,509,14,13"/>
         <ProgressBar Foreground="#FFC3141D" Name="ProgressBar"  Minimum="0" Maximum="100" Margin="0,537,0,0" Height="8" VerticalAlignment="Top" Visibility="Hidden"/>
         <Button Foreground="White" x:Name="QuitButton"  HorizontalAlignment="Left" Margin="869,0,0,0" VerticalAlignment="Top" Width="29" Height="25" Click="QuitButton_Click" RenderTransformOrigin="0.538,-0.599" BorderBrush="#00C3141D" Background="#00000000">
@@ -74,7 +96,7 @@
                 </TextBlock.RenderTransform>
             </TextBlock>
         </Button>
-        
+
     </Grid>
 
 

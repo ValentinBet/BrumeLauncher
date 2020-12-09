@@ -11,12 +11,18 @@
     <None Remove="Images\LauncherBackground.png" />
     <None Remove="Images\TitreFinal.png" />
     <None Remove="Images\TitreFinalIco.ico" />
+    <None Remove="Resources\COCOGOOSELETTERPRESS.ttf" />
   </ItemGroup>
 
   <ItemGroup>
     <Resource Include="Images\LauncherBackground.png" />
     <Resource Include="Images\TitreFinal.png" />
     <Resource Include="Images\TitreFinalIco.ico" />
+    <Resource Include="COCOGOOSELETTERPRESS.ttf" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Resources\" />
   </ItemGroup>
 
 </Project>
